@@ -90,7 +90,7 @@ function draw() {
   function spawnSnow() {
     
     if (frameCount % 5 === 0) {
-      var snow1 = createSprite(Math.round(random(80,700)),10,90,10); 
+      var snow1 = createSprite(Math.round(random(80,1900)),10,90,10); 
       //snow1.x = Math.round(random(80,120));
       
       snow1.addAnimation("snowAnimation1",snow_Animation);
